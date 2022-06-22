@@ -40,24 +40,22 @@
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
 
+    "target": "es5",
+    "module": "esnext",
     "jsx": "react",
     "declaration": true,
     "declarationDir": "types",
     "outDir": "dist",
     "sourceMap": true,
     "strict": true,
+    "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "noImplicitAny": false,
     "resolveJsonModule": true,
-    "allowJs": true,
-    "lib": ["ES2021"],
-    "module": "ES2020",
-    "moduleResolution": "node",
-    "target": "esnext",
-   
+    "allowJs": true
 
     // "lib": ["dom", "ESNext"],
     // "noImplicitReturns": true,
