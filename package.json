@@ -1,6 +1,6 @@
 {
   "name": "senf-atomic-design-system",
-  "version": "0.0.4",
+  "version": "0.0.8",
   "description": "An atomic-design-system-library for all Senf-apps ",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -11,6 +11,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "build": "rollup -c",
+    "watch": "rollup -c --watch",
     "chromatic": "build && build-storybook && chromatic --exit-zero-on-changes"
   },
   "author": "Tassilo Morino",
