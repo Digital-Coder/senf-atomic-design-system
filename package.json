@@ -4,6 +4,7 @@
   "description": "An atomic-design-system-library for all Senf-apps ",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
+  "typings": "dist/cjs/types/index.d.ts",
   "postinstall": "patch-package",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
