@@ -40,12 +40,12 @@
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
 
-    "target": "es5",
+    "target": "es6",
     "module": "esnext",
     "jsx": "react",
     "declaration": true,
     "declarationMap": true,
-    "declarationDir": "dist/dts",
+    "declarationDir": "types",
     "outDir": "dist",
     "sourceMap": true,
     "strict": true,
