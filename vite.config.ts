@@ -16,7 +16,7 @@ export default defineConfig({
         lib: {
             entry: path.resolve(__dirname, 'src/index.ts'),
             name: 'index',
-            formats: ['es', 'cjs'],
+            formats: ['es',/*  'cjs' */],
             fileName: (format) => `${format}.js`,
            
         },
