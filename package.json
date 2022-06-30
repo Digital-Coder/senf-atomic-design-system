@@ -13,7 +13,8 @@
     "dev": "vite",
     "build": "vite build",
     "watch": "vite build --watch",
-    "chromatic": "build && build-storybook && chromatic --exit-zero-on-changes"
+    "chromatic": "build && build-storybook && chromatic --exit-zero-on-changes",
+    "patch": "patch-package"
   },
   "author": "Tassilo Morino",
   "license": "ISC",
@@ -24,6 +25,7 @@
     "@fullcalendar/google-calendar": "^5.11.0",
     "@fullcalendar/list": "^5.11.0",
     "@fullcalendar/react": "^5.11.1",
+    "@mdx-js/preact": "^2.1.2",
     "@react-spring/web": "^9.4.5",
     "@react-theming/storybook-addon": "^1.1.5",
     "@rollup/plugin-commonjs": "^21.0.1",
@@ -36,6 +38,8 @@
     "@storybook/addon-interactions": "^6.4.22",
     "@storybook/addon-links": "^6.4.22",
     "@storybook/addon-viewport": "^6.5.3",
+    "@storybook/builder-webpack5": "^6.5.0-rc.1",
+    "@storybook/manager-webpack5": "^6.5.0-rc.1",
     "@storybook/react": "^6.4.22",
     "@storybook/testing-library": "^0.0.11",
     "@types/jest": "^27.4.0",
@@ -60,12 +64,14 @@
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-terser": "^7.0.2",
+    "storybook-addon-turbo-build": "^1.1.0",
     "storybook-react-i18next": "^1.0.20",
     "styled-components": "^5.3.3",
     "styled-system": "^5.1.5",
     "typescript": "^4.5.5",
     "vite": "^2.9.12",
-    "vite-plugin-dts": "^1.2.0"
+    "vite-plugin-dts": "^1.2.0",
+    "webpack": "^5.73.0"
   },
   "peerDependencies": {
     "formik": "^2.2.9",

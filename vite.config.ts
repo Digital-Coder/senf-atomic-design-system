@@ -2,13 +2,14 @@ import react from '@vitejs/plugin-react';
 import path from 'node:path';
 import { defineConfig } from 'vite';
 import dts from 'vite-plugin-dts';
-import HotBuild from './src/util/hot-build'
+import { visualizer } from "rollup-plugin-visualizer";
 export default defineConfig({
     plugins: [
-        react(),HotBuild(),
-        /* dts({
+        react(),
+         dts({
             insertTypesEntry: true,
-        }), */
+        }),  
+       /*  visualizer() */
     ],
     build: {
         sourcemap: true,
