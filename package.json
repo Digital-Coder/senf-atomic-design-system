@@ -2,9 +2,7 @@
   "name": "senf-atomic-design-system",
   "version": "0.0.19",
   "description": "An atomic-design-system-library for all Senf-apps ",
-  "type": "module",
-  "source":"src/index.ts",
-  "module": "dist/es.js",
+  "main": "./src/index.ts",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
